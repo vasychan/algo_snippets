@@ -1,0 +1,152 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	test_int.cpp	/^class A$/;"	c	file:
+BUFFER_SIZE	github_commits.c	14;"	d	file:
+Foo	test_variatic_tempalates.cpp	/^    Foo(T&& t, Args&&... args): Foo<Args...>(std::forward<Args>(args)...)$/;"	f	struct:Foo	access:public	signature:(T&& t, Args&&... args)
+Foo	test_variatic_tempalates.cpp	/^struct Foo<>$/;"	s	file:
+Foo	test_variatic_tempalates.cpp	/^struct Foo<T, Args...>: private Foo<Args...>$/;"	s	file:	inherits:Foo
+Foo::Foo	test_variatic_tempalates.cpp	/^    Foo(T&& t, Args&&... args): Foo<Args...>(std::forward<Args>(args)...)$/;"	f	struct:Foo	access:public	signature:(T&& t, Args&&... args)
+GMTIME	test_variatic_tempalates.cpp	/^    GMTIME,$/;"	e	enum:dateType	file:
+LOCALTIME	test_variatic_tempalates.cpp	/^    LOCALTIME$/;"	e	enum:dateType	file:
+MyTemplate	test_template_enum.cpp	/^template <> class MyTemplate <FirstLogic>$/;"	c	file:
+MyTemplate	test_template_enum.cpp	/^template <> class MyTemplate <SecondLogic>$/;"	c	file:
+MyTemplate	test_template_enum.cpp	/^template <typename _t> class MyTemplate$/;"	c	file:
+MyTemplate	test_template_enum.cpp	/^template<> class MyTemplate <int>$/;"	c	file:
+MyTemplate::print	test_template_enum.cpp	/^    void print()$/;"	f	class:MyTemplate	access:public	signature:()
+ONE	test_template.hpp	/^    ONE,$/;"	e	enum:TEST
+TEST	test_template.hpp	/^enum TEST$/;"	g
+TWO	test_template.hpp	/^    TWO$/;"	e	enum:TEST
+URL_FORMAT	github_commits.c	16;"	d	file:
+URL_SIZE	github_commits.c	17;"	d	file:
+YEAR	test_variatic_tempalates.cpp	/^    YEAR(int d):data(d){}; $/;"	f	struct:YEAR	access:public	signature:(int d)
+YEAR	test_variatic_tempalates.cpp	/^struct YEAR $/;"	s	file:
+YEAR::YEAR	test_variatic_tempalates.cpp	/^    YEAR(int d):data(d){}; $/;"	f	struct:YEAR	access:public	signature:(int d)
+YEAR::data	test_variatic_tempalates.cpp	/^    int data = 0; $/;"	m	struct:YEAR	file:	access:public
+args_	test_variatic_tempalates.cpp	/^    std::tuple<ARGS...> args_;$/;"	m	class:vasy	file:	access:public
+container_t	test_mutlithred.cpp	/^        typedef std::vector<engine_threads_item> container_t;$/;"	t	class:engine_threads_info	file:	access:public
+data	github_commits.c	/^    char *data;$/;"	m	struct:write_result	file:	access:public
+data	test_variatic_tempalates.cpp	/^    int data = 0; $/;"	m	struct:YEAR	file:	access:public
+dateType	test_variatic_tempalates.cpp	/^enum dateType $/;"	g	file:
+date_traits	test_variatic_tempalates.cpp	/^    struct date_traits {}; $/;"	s	file:
+date_traits	test_variatic_tempalates.cpp	/^    struct date_traits<GMTIME> $/;"	s	file:
+date_traits	test_variatic_tempalates.cpp	/^    struct date_traits<LOCALTIME> $/;"	s	file:
+engine_threads_info	test_mutlithred.cpp	/^class engine_threads_info$/;"	c	file:
+engine_threads_info::container_t	test_mutlithred.cpp	/^        typedef std::vector<engine_threads_item> container_t;$/;"	t	class:engine_threads_info	file:	access:public
+engine_threads_info::get_container	test_mutlithred.cpp	/^        container_t get_container() $/;"	f	class:engine_threads_info	access:public	signature:()
+engine_threads_info::m_container	test_mutlithred.cpp	/^        container_t m_container;$/;"	m	class:engine_threads_info	file:	access:protected
+engine_threads_info::read_mutex	test_mutlithred.cpp	/^        std::mutex read_mutex;$/;"	m	class:engine_threads_info	file:	access:protected
+engine_threads_info::remove	test_mutlithred.cpp	/^        void remove(const engine_threads_item::id_t idx)$/;"	f	class:engine_threads_info	access:public	signature:(const engine_threads_item::id_t idx)
+engine_threads_info::resize	test_mutlithred.cpp	/^        void resize(int capacity)$/;"	f	class:engine_threads_info	access:public	signature:(int capacity)
+engine_threads_info::set_state	test_mutlithred.cpp	/^        void set_state(const engine_threads_item::id_t idx, const engine_threads_item::state_t state)$/;"	f	class:engine_threads_info	access:public	signature:(const engine_threads_item::id_t idx, const engine_threads_item::state_t state)
+engine_threads_info::set_url	test_mutlithred.cpp	/^        void set_url(const engine_threads_item::id_t idx, const engine_threads_item::url_t url)$/;"	f	class:engine_threads_info	access:public	signature:(const engine_threads_item::id_t idx, const engine_threads_item::url_t url)
+engine_threads_item	test_mutlithred.cpp	/^    engine_threads_item() {}$/;"	f	struct:engine_threads_item	access:public	signature:()
+engine_threads_item	test_mutlithred.cpp	/^struct engine_threads_item$/;"	s	file:
+engine_threads_item::engine_threads_item	test_mutlithred.cpp	/^    engine_threads_item() {}$/;"	f	struct:engine_threads_item	access:public	signature:()
+engine_threads_item::get_state	test_mutlithred.cpp	/^    state_t get_state() const$/;"	f	struct:engine_threads_item	access:public	signature:() const
+engine_threads_item::get_url	test_mutlithred.cpp	/^    url_t get_url() const$/;"	f	struct:engine_threads_item	access:public	signature:() const
+engine_threads_item::id_t	test_mutlithred.cpp	/^    typedef         uint32_t    id_t;    $/;"	t	struct:engine_threads_item	file:	access:public
+engine_threads_item::m_id	test_mutlithred.cpp	/^    id_t            m_id;$/;"	m	struct:engine_threads_item	file:	access:public
+engine_threads_item::m_state	test_mutlithred.cpp	/^    state_t         m_state;$/;"	m	struct:engine_threads_item	file:	access:public
+engine_threads_item::m_url	test_mutlithred.cpp	/^    url_t           m_url;$/;"	m	struct:engine_threads_item	file:	access:public
+engine_threads_item::set_state	test_mutlithred.cpp	/^    void set_state(const state_t state)$/;"	f	struct:engine_threads_item	access:public	signature:(const state_t state)
+engine_threads_item::set_url	test_mutlithred.cpp	/^    void set_url(const std::string url) $/;"	f	struct:engine_threads_item	access:public	signature:(const std::string url)
+engine_threads_item::state_t	test_mutlithred.cpp	/^    typedef         uint32_t    state_t;    $/;"	t	struct:engine_threads_item	file:	access:public
+engine_threads_item::url_t	test_mutlithred.cpp	/^    typedef         std::string url_t;$/;"	t	struct:engine_threads_item	file:	access:public
+eqTypes	test_variatic_tempalates.cpp	/^constexpr bool eqTypes() { return is_same<T, U>::value; }$/;"	f	signature:()
+execute	test_mutlithred.cpp	/^    void execute()$/;"	f	class:test_string	access:public	signature:()
+get_container	test_mutlithred.cpp	/^        container_t get_container() $/;"	f	class:engine_threads_info	access:public	signature:()
+get_state	test_mutlithred.cpp	/^    state_t get_state() const$/;"	f	struct:engine_threads_item	access:public	signature:() const
+get_url	test_mutlithred.cpp	/^    url_t get_url() const$/;"	f	struct:engine_threads_item	access:public	signature:() const
+id_t	test_mutlithred.cpp	/^    typedef         uint32_t    id_t;    $/;"	t	struct:engine_threads_item	file:	access:public
+is_same	test_variatic_tempalates.cpp	/^struct is_same$/;"	s	file:
+is_same	test_variatic_tempalates.cpp	/^struct is_same<T, T>$/;"	s	file:
+is_same::value	test_variatic_tempalates.cpp	/^    static const bool value = false;$/;"	m	struct:is_same	file:	access:public
+is_same::value	test_variatic_tempalates.cpp	/^    static const bool value = true;$/;"	m	struct:is_same	file:	access:public
+m_container	test_mutlithred.cpp	/^        container_t m_container;$/;"	m	class:engine_threads_info	file:	access:protected
+m_engine_threads_info	test_mutlithred.cpp	/^    engine_threads_info m_engine_threads_info;$/;"	m	class:test_string	file:	access:public
+m_id	test_mutlithred.cpp	/^    id_t            m_id;$/;"	m	struct:engine_threads_item	file:	access:public
+m_mutex	test_mutlithred.cpp	/^    std::mutex m_mutex;$/;"	m	class:test_string	file:	access:public
+m_state	test_mutlithred.cpp	/^    state_t         m_state;$/;"	m	struct:engine_threads_item	file:	access:public
+m_test	test_mutlithred.cpp	/^    std::string m_test;$/;"	m	class:test_string	file:	access:public
+m_test_char	test_mutlithred.cpp	/^    char* m_test_char;$/;"	m	class:test_string	file:	access:public
+m_test_int	test_mutlithred.cpp	/^    int m_test_int;$/;"	m	class:test_string	file:	access:public
+m_url	test_mutlithred.cpp	/^    url_t           m_url;$/;"	m	struct:engine_threads_item	file:	access:public
+main	github_commits.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	test_bool.cpp	/^int main()$/;"	f	signature:()
+main	test_char.cpp	/^int main()$/;"	f	signature:()
+main	test_date.cpp	/^int main()$/;"	f	signature:()
+main	test_delete.cpp	/^int main()$/;"	f	signature:()
+main	test_disable_sig.cpp	/^int main()$/;"	f	signature:()
+main	test_float.cpp	/^int main()$/;"	f	signature:()
+main	test_int.cpp	/^int main()$/;"	f	signature:()
+main	test_lowerbound.cpp	/^int main () {$/;"	f	signature:()
+main	test_mutlithred.cpp	/^int main()$/;"	f	signature:()
+main	test_ptr_int.cpp	/^int main()$/;"	f	signature:()
+main	test_round.cpp	/^int main ()$/;"	f	signature:()
+main	test_sleep.cpp	/^int main()$/;"	f	signature:()
+main	test_stangefugure.cpp	/^int main()$/;"	f	signature:()
+main	test_strtok.cpp	/^int main()$/;"	f	signature:()
+main	test_template.cpp	/^int main()$/;"	f	signature:()
+main	test_template_enum.cpp	/^int main()$/;"	f	signature:()
+main	test_variatic_tempalates.cpp	/^int main()$/;"	f	signature:()
+main	thread.cpp	/^int main() $/;"	f	signature:()
+newline_offset	github_commits.c	/^static int newline_offset(const char *text)$/;"	f	file:	signature:(const char *text)
+operator <<	test_variatic_tempalates.cpp	/^    std::ostream& operator<<(std::ostream &os, const YEAR& m) $/;"	f	signature:(std::ostream &os, const YEAR& m)
+pause_thread	thread.cpp	/^void pause_thread(int n) $/;"	f	signature:(int n)
+pos	github_commits.c	/^    int pos;$/;"	m	struct:write_result	file:	access:public
+print	test_template.cpp	/^void test<ONE>::print()$/;"	f	class:test	signature:()
+print	test_template.cpp	/^void test<TWO>::print()$/;"	f	class:test	signature:()
+print	test_template_enum.cpp	/^    void print()$/;"	f	class:MyTemplate	access:public	signature:()
+print	test_template_enum.cpp	/^template <typename _t> void print(_t param)$/;"	f	signature:(_t param)
+print	test_variatic_tempalates.cpp	/^   void print()$/;"	f	class:vasy	access:public	signature:()
+read_mutex	test_mutlithred.cpp	/^        std::mutex read_mutex;$/;"	m	class:engine_threads_info	file:	access:protected
+remove	test_mutlithred.cpp	/^        void remove(const engine_threads_item::id_t idx)$/;"	f	class:engine_threads_info	access:public	signature:(const engine_threads_item::id_t idx)
+request	github_commits.c	/^static char *request(const char *url)$/;"	f	file:	signature:(const char *url)
+resize	test_mutlithred.cpp	/^        void resize(int capacity)$/;"	f	class:engine_threads_info	access:public	signature:(int capacity)
+set_state	test_mutlithred.cpp	/^        void set_state(const engine_threads_item::id_t idx, const engine_threads_item::state_t state)$/;"	f	class:engine_threads_info	access:public	signature:(const engine_threads_item::id_t idx, const engine_threads_item::state_t state)
+set_state	test_mutlithred.cpp	/^    void set_state(const state_t state)$/;"	f	struct:engine_threads_item	access:public	signature:(const state_t state)
+set_url	test_mutlithred.cpp	/^        void set_url(const engine_threads_item::id_t idx, const engine_threads_item::url_t url)$/;"	f	class:engine_threads_info	access:public	signature:(const engine_threads_item::id_t idx, const engine_threads_item::url_t url)
+set_url	test_mutlithred.cpp	/^    void set_url(const std::string url) $/;"	f	struct:engine_threads_item	access:public	signature:(const std::string url)
+state_t	test_mutlithred.cpp	/^    typedef         uint32_t    state_t;    $/;"	t	struct:engine_threads_item	file:	access:public
+test	test_template.hpp	/^struct test { };$/;"	s
+test	test_template.hpp	/^struct test<ONE>$/;"	s
+test	test_template.hpp	/^struct test<TWO>$/;"	s
+test	test_variatic_tempalates.cpp	/^struct test$/;"	s	file:
+test::print	test_template.cpp	/^void test<ONE>::print()$/;"	f	class:test	signature:()
+test::print	test_template.cpp	/^void test<TWO>::print()$/;"	f	class:test	signature:()
+test_string	test_mutlithred.cpp	/^    test_string() {} $/;"	f	class:test_string	access:public	signature:()
+test_string	test_mutlithred.cpp	/^class test_string$/;"	c	file:
+test_string::execute	test_mutlithred.cpp	/^    void execute()$/;"	f	class:test_string	access:public	signature:()
+test_string::m_engine_threads_info	test_mutlithred.cpp	/^    engine_threads_info m_engine_threads_info;$/;"	m	class:test_string	file:	access:public
+test_string::m_mutex	test_mutlithred.cpp	/^    std::mutex m_mutex;$/;"	m	class:test_string	file:	access:public
+test_string::m_test	test_mutlithred.cpp	/^    std::string m_test;$/;"	m	class:test_string	file:	access:public
+test_string::m_test_char	test_mutlithred.cpp	/^    char* m_test_char;$/;"	m	class:test_string	file:	access:public
+test_string::m_test_int	test_mutlithred.cpp	/^    int m_test_int;$/;"	m	class:test_string	file:	access:public
+test_string::test_string	test_mutlithred.cpp	/^    test_string() {} $/;"	f	class:test_string	access:public	signature:()
+time	test_variatic_tempalates.cpp	/^int time;$/;"	m	class:vasy	file:	access:public
+url_t	test_mutlithred.cpp	/^    typedef         std::string url_t;$/;"	t	struct:engine_threads_item	file:	access:public
+value	test_variatic_tempalates.cpp	/^    static const bool value = false;$/;"	m	struct:is_same	file:	access:public
+value	test_variatic_tempalates.cpp	/^    static const bool value = true;$/;"	m	struct:is_same	file:	access:public
+vasy	test_variatic_tempalates.cpp	/^     vasy()$/;"	f	class:vasy	access:public	signature:()
+vasy	test_variatic_tempalates.cpp	/^    vasy()$/;"	f	class:vasy	access:public	signature:()
+vasy	test_variatic_tempalates.cpp	/^    vasy(T&& t, ARGS&&... args):$/;"	f	class:vasy	access:public	signature:(T&& t, ARGS&&... args)
+vasy	test_variatic_tempalates.cpp	/^    vasy(int a)$/;"	f	class:vasy	access:public	signature:(int a)
+vasy	test_variatic_tempalates.cpp	/^    vasy(int i)$/;"	f	class:vasy	access:public	signature:(int i)
+vasy	test_variatic_tempalates.cpp	/^class vasy<>\/\/:public base_vasy<T>$/;"	c	file:
+vasy	test_variatic_tempalates.cpp	/^class vasy<T, ARGS...> \/\/: public base_vasy<T>$/;"	c	file:
+vasy::args_	test_variatic_tempalates.cpp	/^    std::tuple<ARGS...> args_;$/;"	m	class:vasy	file:	access:public
+vasy::print	test_variatic_tempalates.cpp	/^   void print()$/;"	f	class:vasy	access:public	signature:()
+vasy::time	test_variatic_tempalates.cpp	/^int time;$/;"	m	class:vasy	file:	access:public
+vasy::vasy	test_variatic_tempalates.cpp	/^     vasy()$/;"	f	class:vasy	access:public	signature:()
+vasy::vasy	test_variatic_tempalates.cpp	/^    vasy()$/;"	f	class:vasy	access:public	signature:()
+vasy::vasy	test_variatic_tempalates.cpp	/^    vasy(T&& t, ARGS&&... args):$/;"	f	class:vasy	access:public	signature:(T&& t, ARGS&&... args)
+vasy::vasy	test_variatic_tempalates.cpp	/^    vasy(int a)$/;"	f	class:vasy	access:public	signature:(int a)
+vasy::vasy	test_variatic_tempalates.cpp	/^    vasy(int i)$/;"	f	class:vasy	access:public	signature:(int i)
+write_response	github_commits.c	/^static size_t write_response(void *ptr, size_t size, size_t nmemb, void *stream)$/;"	f	file:	signature:(void *ptr, size_t size, size_t nmemb, void *stream)
+write_result	github_commits.c	/^struct write_result$/;"	s	file:
+write_result::data	github_commits.c	/^    char *data;$/;"	m	struct:write_result	file:	access:public
+write_result::pos	github_commits.c	/^    int pos;$/;"	m	struct:write_result	file:	access:public
